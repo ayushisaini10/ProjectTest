@@ -20,23 +20,21 @@ public class Locators {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         // Enter username
-      //  driver.findElement(By.name("username")).sendKeys("Admi");
+        //  driver.findElement(By.name("username")).sendKeys("Admi");
 
         // Enter Password
-     //   driver.findElement(By.name("password")).sendKeys("admi123");
+        //   driver.findElement(By.name("password")).sendKeys("admi123");
 
         // Click Login button
-      //  driver.findElement(By.className("orangehrm-login-button")).click();
+        //  driver.findElement(By.className("orangehrm-login-button")).click();
 
 
         // Wait to see result
+        //    Thread.sleep(3000);
 
+        //   System.out.println("Login Successfully");
 
-    //    Thread.sleep(3000);
-
-      //   System.out.println("Login Successfully");
-
-      //  System.out.println(driver.findElement(By.cssSelector(".oxd-alert-content.oxd-alert-content--error")).getText());
+        //  System.out.println(driver.findElement(By.cssSelector(".oxd-alert-content.oxd-alert-content--error")).getText());
 
 
 
