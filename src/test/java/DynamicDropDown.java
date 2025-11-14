@@ -17,10 +17,10 @@ public class DynamicDropDown {
 
         driver.findElement(By.xpath("//a[@value='DEL']")).click();
 
-        Thread.sleep(5000L);
+        Thread.sleep(2000);
 
 
-        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='GOI']")).click();
+        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='GOI']")).click();
 
 
         // //div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR']
