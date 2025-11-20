@@ -22,25 +22,21 @@ public class AutoSuggestiveDropDown {
         Thread.sleep(3000);
 
 
+        List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item']"));
 
-      List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item']"));
+        for (WebElement option : options) {
+            if (option.getText().equalsIgnoreCase("india")) ;
+            {
+                option.click();
+                break;
+            }
+        }
 
-      for (WebElement option : options)
-      {
-          if(option.getText().equalsIgnoreCase("india"));
-          {
-              option.click();
-              break;
-          }
-      }
-
-      driver.quit();
-
-      }
-
-
-
+        driver.quit();
 
     }
+
+
+}
 
 
