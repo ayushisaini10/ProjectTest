@@ -69,7 +69,7 @@ public class Scope {
         }
 
 
-        driver.quit()
+        driver.quit();
 
     }
 }
