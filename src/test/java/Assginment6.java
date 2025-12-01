@@ -23,7 +23,6 @@ public class Assginment6 {
 // storing the value of box title
         String clickedBox = driver.findElement(By.cssSelector("label[for='honda']")).getText();
 
-
         WebElement dropDown = driver.findElement(By.id("dropdown-class-example"));
 
         Select s = new Select(dropDown);

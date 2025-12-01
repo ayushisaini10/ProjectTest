@@ -7,7 +7,7 @@ public class Locators2 {
     public static void main(String[] args) throws InterruptedException {
 
 
-        // Initialize the ChromeDriver
+// Initialize the ChromeDriver
 
         WebDriver driver = new ChromeDriver();
 
